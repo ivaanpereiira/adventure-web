@@ -1,51 +1,198 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Netflix Clone</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
+  <title>Mi Portafolio</title>
+  <style>
+    /* Estilos CSS para el portafolio */
+  
+
+/* Estilos generales */
+body {
+  
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+/* Estilos de encabezado */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+#header img {
+width: 300px;
+border-radius: 100px;
+
+}
+
+h1, h2 {
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos de navegación */
+nav {
+  background-color: #5b5de3;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+nav ul li a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Estilos de secciones */
+section {
+  padding: 50px;
+}
+
+#inicio {
+  background-color: #00FFFF;
+}
+
+#sobremi {
+  background-color: #e0e0e0;
+}
+
+#experiencia {
+  background-color: ##00FFFF;
+}
+
+#habilidades {
+  background-color: #c8c8c8;
+}
+
+#proyectos {
+  background-color: ##00FFFF;
+}
+
+#contacto {
+  background-color: #b0b0b0;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+/* Estilos de pie de página */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+  </style>
 </head>
 <body>
   <header>
-    <nav>
-      <div class="logo">
-        <img src="logo.png" alt="Netflix Logo">
-      </div>
-      <div class="menu">
-        <a href="#">Inicio</a>
-        <a href="#">Series</a>
-        <a href="#">Películas</a>
-        <a href="#">Mi Lista</a>
-      </div>
-    </nav>
+    <h1>Mi Portafolio</h1>
+    <p>Bienvenido/a a mi portafolio personal</p>
+    <header>
+          <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" style="widht: 300px; border-radius 100%;"/>
+          
+          
+    </header>
+    
   </header>
-
-  <section class="banner">
-    <div class="content">
-      <h1>Película de ejemplo</h1>
-      <p>Descripción de la película</p>
-      <button>Reproducir</button>
-      <button>Agregar a Mi Lista</button>
-    </div>
+  
+  <nav>
+    <ul>
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#sobremi">Sobre mí</a></li>
+      <li><a href="#experiencia">Experiencia</a></li>
+      <li><a href="#habilidades">Habilidades</a></li>
+      <li><a href="#proyectos">Proyectos</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+  
+  <section id="inicio">
+    <h2>Inicio</h2>
+    <p>Bienvenido/a a mi portafolio personal. Aquí encontrarás información sobre mí y mis proyectos.</p>
   </section>
-
-  <section class="movies">
-    <h2>Series populares</h2>
-    <div class="movie-container">
-      <!-- Aquí puedes agregar las tarjetas de las series -->
-    </div>
+  
+  <section id="sobremi">
+    <h2>Sobre mí</h2>
+    <p>Soy [Tu nombre], un [tu profesión o área de especialización] con [número] años de experiencia en [tu campo]. Me apasiona [mencionar tu pasión o enfoque específico].</p>
   </section>
-
-  <section class="movies">
-    <h2>Películas populares</h2>
-    <div class="movie-container">
-      <!-- Aquí puedes agregar las tarjetas de las películas -->
-    </div>
+  
+  <section id="experiencia">
+    <h2>Experiencia</h2>
+    <p>Tengo experiencia trabajando en diferentes roles y proyectos. A continuación, se muestra un resumen de mi experiencia:</p>
+    <ul>
+      <li>[Nombre de la empresa] - [Cargo] - [Fecha de inicio] a [Fecha de finalización]</li>
+      <li>[Nombre de la empresa] - [Cargo] - [Fecha de inicio] a [Fecha de finalización]</li>
+      <!-- Agrega más elementos según sea necesario -->
+    </ul>
   </section>
+  
+  <section id="habilidades">
+    <h2>Habilidades</h2>
+    <p>Estas son algunas de las habilidades en las que me destaco:</p>
+    <ul>
+      <li>Habilidad 1</li>
+      <li>Habilidad 2</li>
+      <li>Habilidad 3</li>
+      <!-- Agrega más elementos según sea necesario -->
 
-  <footer>
-    <p>© 2023 Netflix Clone</p>
-  </footer>
+      <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Si deseas ponerte en contacto conmigo, puedes utilizar el siguiente formulario o enviarme un correo electrónico.</p>
+        
+        <form action="#" method="POST">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required>
+          
+          <label for="correo">Correo electrónico:</label>
+          <input type="email" id="correo" name="correo" required>
+          
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+          
+          <input type="submit" value="Enviar">
+        </form>
+        
+        <p>También puedes enviarme un correo electrónico a <a href="mailto:tucorreo@example.com">tucorreo@example.com</a>.</p>
+      </section>
+      
+    </ul>
+  </section
 
-  <script src="script.js"></script>
-</body>
-</html>
