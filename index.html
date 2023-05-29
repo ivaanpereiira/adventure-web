@@ -2,136 +2,139 @@
 <html>
 <head>
   <title>Mi Portafolio</title>
+
   <style>
     /* Estilos CSS para el portafolio */
-  
 
-/* Estilos generales */
-body {
-  
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
+    /* Estilos generales */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
 
-.container {
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 20px;
-}
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 20px;
+    }
 
+    /* Estilos de encabezado */
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
 
-/* Estilos de encabezado */
-header {
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
-}
-#header img {
-width: 300px;
-border-radius: 100px;
+    h1, h2 {
+      margin: 0;
+      padding: 0;
+    }
 
-}
+    /* Estilos de navegación */
+    nav {
+      background-color: #5b5de3;
+      padding: 10px;
+    }
 
-h1, h2 {
-  margin: 0;
-  padding: 0;
-}
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
 
-/* Estilos de navegación */
-nav {
-  background-color: #5b5de3;
-  padding: 10px;
-}
+    nav ul li {
+      display: inline-block;
+      margin-right: 10px;
+    }
 
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
+    nav ul li a {
+      text-decoration: none;
+      color: #333;
+      padding: 5px 10px;
+      border-radius: 5px;
+    }
 
-nav ul li {
-  display: inline-block;
-  margin-right: 10px;
-}
+    nav ul li a:hover {
+      background-color: #333;
+      color: #fff;
+    }
 
-nav ul li a {
-  text-decoration: none;
-  color: #333;
-  padding: 5px 10px;
-  border-radius: 5px;
-}
+    /* Estilos de secciones */
+    section {
+      padding: 50px;
+    }
 
-nav ul li a:hover {
-  background-color: #333;
-  color: #fff;
-}
+    #inicio {
+      background-color: #d900ff;
+    }
 
-/* Estilos de secciones */
-section {
-  padding: 50px;
-}
+    #sobremi {
+      background-color: #e0e0e0;
+    }
 
-#inicio {
-  background-color: #00FFFF;
-}
+    #experiencia {
+      background-color: #00FFFF;
+    }
 
-#sobremi {
-  background-color: #e0e0e0;
-}
+    #habilidades {
+      background-color: #c8c8c8;
+    }
 
-#experiencia {
-  background-color: ##00FFFF;
-}
+    #proyectos {
+      background-color: #00FFFF;
+    }
 
-#habilidades {
-  background-color: #c8c8c8;
-}
+    #contacto {
+      background-color: #b0b0b0;
+    }
 
-#proyectos {
-  background-color: ##00FFFF;
-}
+    h2 {
+      margin-bottom: 20px;
+    }
 
-#contacto {
-  background-color: #b0b0b0;
-}
+    ul {
+      margin: 0;
+      padding: 0;
+    }
 
-h2 {
-  margin-bottom: 20px;
-}
+    ul li {
+      list-style-type: none;
+      margin-bottom: 10px;
+    }
 
-ul {
-  margin: 0;
-  padding: 0;
-}
+    /* Estilos de pie de página */
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
 
-ul li {
-  list-style-type: none;
-  margin-bottom: 10px;
-}
-
-/* Estilos de pie de página */
-footer {
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
-}
-
+    /* Estilos adicionales */
+    header img {
+      width: 500px;
+      border-radius: 50%;
+      margin: 0 auto;
+      display: block;
+    }
   </style>
 </head>
 <body>
   <header>
     <h1>Mi Portafolio</h1>
     <p>Bienvenido/a a mi portafolio personal</p>
+
     <header>
-      <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" style="width: 500px; border-radius: 50%;">
+      <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80">
+    <p>Ivan Leonardo Pereira</p>
+    
+    
     </header>
-    
-    
+
   </header>
-  
+
   <nav>
     <ul>
       <li><a href="#inicio">Inicio</a></li>
@@ -142,17 +145,17 @@ footer {
       <li><a href="#contacto">Contacto</a></li>
     </ul>
   </nav>
-  
+
   <section id="inicio">
     <h2>Inicio</h2>
     <p>Bienvenido/a a mi portafolio personal. Aquí encontrarás información sobre mí y mis proyectos.</p>
   </section>
-  
+
   <section id="sobremi">
     <h2>Sobre mí</h2>
-    <p>Soy [Tu nombre], un [tu profesión o área de especialización] con [número] años de experiencia en [tu campo]. Me apasiona [mencionar tu pasión o enfoque específico].</p>
+    <p>Soy Ivan Pereira, actualmente estoy en carrera para convertime en un FrontEnd, estudio constantemente e intento mejorar dia a dia. Estoy en busca de hacer una carrera como Desarrollador Web y especializarme en lenguaje NO-Code.</p>
   </section>
-  
+
   <section id="experiencia">
     <h2>Experiencia</h2>
     <p>Tengo experiencia trabajando en diferentes roles y proyectos. A continuación, se muestra un resumen de mi experiencia:</p>
@@ -162,7 +165,7 @@ footer {
       <!-- Agrega más elementos según sea necesario -->
     </ul>
   </section>
-  
+
   <section id="habilidades">
     <h2>Habilidades</h2>
     <p>Estas son algunas de las habilidades en las que me destaco:</p>
@@ -171,27 +174,20 @@ footer {
       <li>Habilidad 2</li>
       <li>Habilidad 3</li>
       <!-- Agrega más elementos según sea necesario -->
-
-      <section id="contacto">
-        <h2>Contacto</h2>
-        <p>Si deseas ponerte en contacto conmigo, puedes utilizar el siguiente formulario o enviarme un correo electrónico.</p>
-        
-        <form action="#" method="POST">
-          <label for="nombre">Nombre:</label>
-          <input type="text" id="nombre" name="nombre" required>
-          
-          <label for="correo">Correo electrónico:</label>
-          <input type="email" id="correo" name="correo" required>
-          
-          <label for="mensaje">Mensaje:</label>
-          <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
-          
-          <input type="submit" value="Enviar">
-        </form>
-        
-        <p>También puedes enviarme un correo electrónico a <a href="mailto:tucorreo@example.com">tucorreo@example.com</a>.</p>
-      </section>
-      
     </ul>
-  </section
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>Si deseas ponerte en contacto conmigo, puedes utilizar el siguiente formulario o enviarme un correo electrónico.</p>
+
+    
+    <p>También puedes enviarme un correo electrónico a <a href="mailto:tucorreo@example.com">tucorreo@example.com</a>.</p>
+  </section>
+
+  <footer>
+    <p>Derechos de autor &copy; 2023 | Mi Portafolio</p>
+  </footer>
+</body>
+</html>
 
